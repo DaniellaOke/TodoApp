@@ -84,17 +84,17 @@ if (isset($_POST['doneTask'])){
     echo $status;
 }
 
-// $name = 'ade';
+$name = 'ade';
 
-// if($name == 'ade'){
-//     $sex = "boy";
-// }else{
-//     $sex = "girl";
-// }
+if($name == 'ade'){
+    $sex = "boy";
+}else{
+    $sex = "girl";
+}
 
-// echo $sex;
-// //tienary
+echo $sex;
+//tienary
 
-// $sex = $name == 'ade'? 'boy': 'girl';
-// echo $sex;
+$sex = $name == 'ade'? 'boy': 'girl';
+echo $sex;
 ?>
